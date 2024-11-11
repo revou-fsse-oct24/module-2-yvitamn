@@ -13,9 +13,20 @@
     h1{
         color: white;
         text-shadow: 1px 1px 2px brown;
+        animation-name: munculDariAtas;
+        animation-duration: 3s;
     }
 
-
+@keyframes munculDariAtas{
+frame{
+margin-top: 100%;
+font-size: 48px;
+}
+to{
+    margin-top: 0;
+    font-size: 24px;
+}
+}
     
     header, footer {
         position: sticky;
