@@ -15,12 +15,20 @@
         text-shadow: 1px 1px 2px brown;
         animation-name: munculDariAtas;
         animation-duration: 3s;
+        animation-direction: reverse;
     }
 
 @keyframes munculDariAtas{
 frame{
 margin-top: 100%;
 font-size: 48px;
+color: blue;
+}
+
+75%{
+    margin-top: 25%;
+    font-size: 30px;
+
 }
 to{
     margin-top: 0;
