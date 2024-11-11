@@ -14,20 +14,23 @@
         color: white;
         text-shadow: 1px 1px 2px brown;
         animation-name: munculDariAtas;
-        animation-duration: 3s;
+        animation-duration: 2s;
         animation-direction: reverse;
+        animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
     }
 
+    
 @keyframes munculDariAtas{
 frame{
 margin-top: 100%;
 font-size: 48px;
-color: blue;
 }
 
-75%{
+75% {
     margin-top: 25%;
     font-size: 30px;
+    color: ;
+}
 
 }
 to{
@@ -251,8 +254,8 @@ img{
 
 
     /* Media Queries */
-    @media screen and (max-width: 768px) {
-
+    @media only screen and (max-width: 768px) {
+       
         
         .product-page {
             grid-template-columns: 1fr; 
