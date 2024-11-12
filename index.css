@@ -19,7 +19,7 @@
         animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
     }
 
-    
+
 @keyframes munculDariAtas{
 frame{
 margin-top: 100%;
@@ -55,8 +55,13 @@ to{
   #header {
 background-image: url("./assets/img/Linen-Menarco\ horizontal.webp.jpg");
 background-size: contain;  
-
+/* transition-duration: 2s;
+transition-property: transform; */
 }
+/* 
+#header:hover{
+    transform: scale(0.5) rotate(180deg);
+} */
     
 
     /* Main content area styling */
@@ -65,11 +70,13 @@ main {
     justify-content: center;
     padding: 20px;
   }
+
   .content-container{
     display: flex;
     justify-content: center;
     padding-top: 90px;
   }
+  
     h1 {
         font-size: 36px;
         font-weight: bold;
