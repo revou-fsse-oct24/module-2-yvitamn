@@ -40,9 +40,9 @@ to{
 }
     
     header, footer {
-        position: sticky;
-        text-decoration: none;
-        
+
+        position: relative;
+        text-decoration: none;      
         background-color: white;
         color: black;
         text-align: center;
@@ -53,8 +53,14 @@ to{
     }
 
   #header {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
 background-image: url("./assets/img/Linen-Menarco\ horizontal.webp.jpg");
 background-size: contain;  
+background-position: center;
 /* transition-duration: 2s;
 transition-property: transform; */
 }
@@ -63,6 +69,12 @@ transition-property: transform; */
     transform: scale(0.5) rotate(180deg);
 } */
     
+/* .search-container{
+    display: flex;
+  
+  } */
+
+
 
     /* Main content area styling */
 main {
@@ -76,6 +88,7 @@ main {
     justify-content: center;
     padding-top: 90px;
   }
+  
   
     h1 {
         font-size: 36px;
@@ -97,7 +110,6 @@ main {
 
 
     }
-
 
     .grid-container {       
 
@@ -159,20 +171,7 @@ main {
         .product-details p {
             line-height: 1.5;
           }
-        .sticky-footer{
-                 display: flex;
-                 justify-content: center;
-                position: fixed;
-                bottom: 0;
-                background-color: #33333374;
-                color: white;
-                text-align: center;
-                padding: 5px;
-                z-index: 10;
-    
-        }
-
-
+       
     .navbar li {
         margin-right: 20px;   /* Space between items */
     }
@@ -221,11 +220,26 @@ main {
     background-color: #45a049; /* Darker green on hover */
 }
 
-footer {
+.footer-wraper{
+   
+}
+.sticky-footer{
     display: flex;
     justify-content: center;
+   position: fixed;
+   bottom: 0;
+   background-color: #33333374;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   z-index: 10;
+
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding: 10px;
+    padding: 100px;
     background-color: #333; /* Dark footer */
     color: white;
     position: fixed;

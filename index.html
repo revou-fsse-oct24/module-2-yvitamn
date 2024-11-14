@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet">
-   
+    <!-- <script src="https://cdn.tailwindcss.com"></script> --> */ masih berantakan tailwind jadi di off dulu */
     <title>TERESE</title>  
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
   
 </head>
+
 
 <body class="bg-white text-black">
   <div class="grid grid-rows-[auto,1fr,auto,1fr,auto] grid-cols-1 gap-4 min-h-screen">
@@ -25,30 +26,28 @@
     <!-- </div> -->
 
   <header class="sticky-header" id="header">
-    <header class="p-6 bg-gray-200 text-center text-3xl font-bold">
+    <!-- <header class="p-6 bg-gray-200 text-center text-3xl font-bold">
       
-  </header>
+  </header> -->
    
+<div class="search-container flex-none";>
+  <button class="search-icon" onclick="toggleSearch()">
+  🔍
+  <input type="text" id="search-input" placeholder="Search..." style="display: none;">
+</button>
 
-
-    <div class="search-container";>
-      <button class="search-icon" onclick="toggleSearch()">
-      🔍
-      <input type="text" id="search-input" placeholder="Search..." style="display: none;">
-  </button>
- 
-  <script>
-        function toggleSearch() {
-          event.preventDefault();
-            const searchInput = document.getElementById('search-input');
-            if (searchInput.style.display === 'none' || searchInput.style.display === '') {
-                searchInput.style.display = 'block';
-                searchInput.focus();
-            } else {
-                searchInput.style.display = 'none';
-            }
+<script>
+    function toggleSearch() {
+      event.preventDefault();
+        const searchInput = document.getElementById('search-input');
+        if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+            searchInput.style.display = 'block';
+            searchInput.focus();
+        } else {
+            searchInput.style.display = 'none';
         }
-    </script>
+    }
+</script>
 </div>
 
     <span style="text-align: center";>
@@ -77,7 +76,7 @@
     
       
  
-  <!-- <div class="localization-wrapper"></div> -->
+  
 
   <script>
     // JavaScript for handling dropdown selection
@@ -105,8 +104,8 @@
   
   
 
-    <main class="content-container">
-      
+    <main class="content-container grid grid-rows-3 gap-4">
+     
 
       <!-- <div class="grid-container">
         <div class="item-1"></div>       
@@ -115,9 +114,9 @@
        
       </div> -->
 
-  <section class="grid-container">
+  <section class="grid-container grid grid-cols-1 md:grid-cols-2 gap-4">
 
-            <div class="product-image">
+            <div class="product-image w-full h-64 bg-gray-300 flex justify-center items-center">
               <!-- <div class="item-2"> -->
 
 <picture>
@@ -138,10 +137,10 @@
               </div>
 
 <article>
-              <div class="product-details">            
+              <div class="product-details flex flex-col justify-center p-4">            
               <span style="text-align: center;">
                
-                      <h2>Menorca Set - Tobacco</h2>
+                      <h2 text-xl font-semibold>Menorca Set - Tobacco</h2>
                       <p class="price">$309.00</p>
                  
                   <p>
@@ -373,9 +372,11 @@ Cool iron when needed.
 </article>
   </main>
 
+  
+<div class="footer-wraper">
 <footer>
   <div class="sticky-footer">
-  <div class="field field--with-error">
+  <div class="inputType-joinUs">
     <div style="text-align: center;">
       <p>Join us on email and get 10% off your first purchase</p>
     <input
@@ -387,13 +388,13 @@ Cool iron when needed.
       spellcheck="false"
       autocapitalize="off"
       value=""
-      aria-required="true"
-      
+      aria-required="true"   
       placeholder="Email"
     ></div>
   </div>
   </div>
 </footer>
+</div>
 
 
 
