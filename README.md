@@ -1,16 +1,16 @@
 
 ----
-## Project Title
+# [Project Module-2](#project-module-2)
 
-This project is an online store built for a brand [Terese], using [HTML, CSS, Javascript].
+This project is an online store built for a brand ![Terese](./assets/img/readme-ss-mod2/Screenshot%20(456).png), using [HTML, CSS, Javascript].
 
 
 ----
-## Table of Contents
-- [About]
+# Table of Contents
+## [About](#about)
 It features a user-friendly interface and seamless checkout process.
 
-- [Installation]
+## [Installation](#installation)
 1. Clone the repository:
    ```bash
    git clone https://github.com/revou-fsse-oct24/module-2-yvitamn
@@ -36,12 +36,12 @@ It features a user-friendly interface and seamless checkout process.
     ![Make domain ss](./assets/img/readme-ss-mod2/Screenshot%20(428).png)
     and click "Beli domain"
     ![Buy domain ss](./assets/img/readme-ss-mod2/Screenshot%20(430).png)![Domain regis ss](./assets/img/readme-ss-mod2/Screenshot%20(431).png)
-    Wait for the verification and the domain registration to be finish minimumin 30 minutes, check email for further verification ![Wait verification ss](./assets/img/readme-ss-mod2/Screenshot%20(433).png)
+    Wait for the verification and the domain registration to be finish minimum in 30 minutes, check email for further verification ![Wait verification ss](./assets/img/readme-ss-mod2/Screenshot%20(433).png)
    4.2 Connect the new domain to Netlify, click Domain management write the new domain and click "Verify" ![Manage domain1 netlify ss](./assets/img/readme-ss-mod2/Screenshot%20(435).png)
    click "Add domain" ![Manage domain2 netlify ss](./assets/img/readme-ss-mod2/Screenshot%20(436).png) and the display will be like this ![Manage domain3 netlify ss](./assets/img/readme-ss-mod2/Screenshot%20(438).png)
    and select "Primary domain" and click "Options" select "Set up Netlify DNS"
    and click "Verify" ![Set DNS1 ss](./assets/img/readme-ss-mod2/Screenshot%20(439).png) click "Add domain" button ![Set DNS2 ss](./assets/img/readme-ss-mod2/Screenshot%20(440).png) click "Continue"![Set DNS3 ss](./assets/img/readme-ss-mod2/Screenshot%20(442).png)
-   ![Set DNS4  ss](./assets/img/readme-ss-mod2/Screenshot%20(443).png) and all these 4 DNS address need to be copied and paste to Niagahoster new DNS address
+   ![Set DNS4  ss](./assets/img/readme-ss-mod2/Screenshot%20(443).png) and all these 4 DNS address need to be copied and paste to Niagahoster new DNS addresses
    4.3 Copy the 4 DNS from Netlify to this page, click "DNS/Nameserver" select radiobutton "Ganti nama server" ![Rename DNS1 ss](./assets/img/readme-ss-mod2/Screenshot%20(444).png)
    ![Rename DNS2 ss](./assets/img/readme-ss-mod2/Screenshot%20(447).png)![Rename DNS2 ss](./assets/img/readme-ss-mod2/Screenshot%20(448).png)![Rename DNS3 ss](./assets/img/readme-ss-mod2/Screenshot%20(449).png)
    Back to Netlify again to check if the new domain works with the DNS set up with Niagahoster. 
@@ -51,28 +51,23 @@ It features a user-friendly interface and seamless checkout process.
    and the elemen and performance score ![Check1 ss](./assets/img/readme-ss-mod2/Screenshot%20(457).png)![Check2 ss](./assets/img/readme-ss-mod2/Screenshot%20(468).png)
 
 
-
-
-
-
-
-- [Usage](#usage)
+## [Usage](#usage)
 
 1. [Running locally]
 
-2. [Visit the website in your browser] at https://teresestudios.web.id/
+2. [Visit the website in your browser] at [https://teresestudios.web.id/]
 
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
+## [Contributing](#contributing)
+## [License](#license)
+## [Acknowledgments](#acknowledgments)
+## [Contact](#contact)
 
  If you have any questions or feedback, feel free to reach out:
 
 - Email: [mnyovita516@gmail.com]
 - GitHub: [https://github.com/yvitamn]
  Github pages: 
- https://revou-fsse-oct24.github.io/module-2-yvitamn/
+ [https://revou-fsse-oct24.github.io/module-2-yvitamn/]
 
  
 ----
