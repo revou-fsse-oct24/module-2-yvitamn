@@ -225,7 +225,9 @@ main {
 }
 .sticky-footer{
     display: flex;
+    /* flex-direction: row; */
     justify-content: center;
+    /* align-items: flex-end; */
    position: fixed;
    bottom: 0;
    background-color: #33333374;
@@ -237,7 +239,9 @@ main {
 }
 #footer {
     display: flex;
-    justify-content: space-between;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; */
     text-align: center;
     padding: 100px;
     background-color: #333; /* Dark footer */
