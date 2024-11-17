@@ -19,24 +19,28 @@ It features a user-friendly interface and seamless checkout process.
    2.1 Visit the Netlify website homepage and clik Sign Up button and choose one of the methods,
    here we choose Sign Up with email. ![Signup1 ss](./assets/img/readme-ss-mod2/Screenshot%20(471).png)![Signup2 ss](./assets/img/readme-ss-mod2/Screenshot%20(472).png)
 
-   2.2 After Sign up with email and create a password, now log in with email and password ![Login ss](./assets/img/readme-ss-mod2/Screenshot%20(416).png)
+   2.2 After Sign up with email and create a password, now log in with email and password ![Login ss](./assets/img/readme-ss-mod2/Screenshot%20(416).webp)
    Confirm the email address by clicking verification link sent to your inbox. Choose Netlify several pricing tiers. Select Free tiers and start using Netlify.
+
+   2.3 After create a Netlify account with email, create a site, click on "New site from Git" select gitHub. Log in Github account first, and click on "Authorize Netlify"  
+   ![Connect github ss](./assets/img/readme-ss-mod2/Screenshot%20(418).webp) ![Connect github ss](./assets/img/readme-ss-mod2/Screenshot%20(419).webp)
    
-   2.3 To connect Github and Netlify, click "New site from Git" select gitHub. Log in Github account first and click on "Authorize Netlify"  
-   ![Connect github ss](./assets/img/readme-ss-mod2/Screenshot%20(418).png) ![Connect github ss](./assets/img/readme-ss-mod2/Screenshot%20(419).png)
    
-   
-3. [Steps of auto deployment on Github with Netlify]
-   3.1 Choose the repository you want to deploy, the repository need to be public ![Choose repo ss](./assets/img/readme-ss-mod2/Screenshot%20(420).png)![Deploy repo ss](./assets/img/readme-ss-mod2/Screenshot%20(421).png)
-   Wait until the process complete![Process1 depo ss](./assets/img/readme-ss-mod2/Screenshot%20(422).png)![Process2 depo ss](./assets/img/readme-ss-mod2/Screenshot%20(423).png)
-   Its the display after its deployed ![Deploy success1 ss](./assets/img/readme-ss-mod2/Screenshot%20(469).png)![Deploy success2 ss](./assets/img/readme-ss-mod2/Screenshot%20(426).png)
+3. [Steps of auto deployment with Netlify]
+   3.1 Select the specific repository that you want to deploy, the repository need to be public ![Choose repo ss](./assets/img/readme-ss-mod2/Screenshot%20(420).webp) You can scroll down here select branch to deploy, here we select " "main" branch and skip other options. After configuring the build settings, click on "Deploy site"
+   ![Deploy repo ss](./assets/img/readme-ss-mod2/Screenshot%20(421).webp)
+   Wait until the process complete![Process1 depo ss](./assets/img/readme-ss-mod2/Screenshot%20(422).webp)![Process2 depo ss](./assets/img/readme-ss-mod2/Screenshot%20(423).webp)
+   Its the display after its deployed ![Deploy success1 ss](./assets/img/readme-ss-mod2/Screenshot%20(469).png) Once the deployment is successful, Netlify will give URL to access your site
+   ![Deploy success2 ss](./assets/img/readme-ss-mod2/Screenshot%20(426).webp)
+   Check for auto deployment in Netlify, click on "Deploys" ![Check deploy1 ss](./assets/img/readme-ss-mod2/Screenshot%20(434).png)![Check deploy2 ss](./assets/img/readme-ss-mod2/Screenshot%20(424).webp)![Check deploy3 ss](./assets/img/readme-ss-mod2/Screenshot%20(425).webp)![Check deploy2 ss](./assets/img/readme-ss-mod2/Screenshot%20(506).png)
+
 
 4. [Steps of connecting the new custom domain(teresestudios.web.id) and DNS]
    4.1 Go to Niagahoster homepage and try log in with Google account, click "Domain" and "Miliki domain baru". Write the domain name and select the domain that suits your need.
-    ![Make domain ss](./assets/img/readme-ss-mod2/Screenshot%20(428).png)
+    ![Make domain ss](./assets/img/readme-ss-mod2/Screenshot%20(428).webp)
     and click "Beli domain"
-    ![Buy domain ss](./assets/img/readme-ss-mod2/Screenshot%20(430).png)![Domain regis ss](./assets/img/readme-ss-mod2/Screenshot%20(431).png)
-    Wait for the verification and the domain registration to be finish minimum in 30 minutes, check email for further verification ![Wait verification ss](./assets/img/readme-ss-mod2/Screenshot%20(433).png)
+    ![Buy domain ss](./assets/img/readme-ss-mod2/Screenshot%20(430).webp)![Domain regis ss](./assets/img/readme-ss-mod2/Screenshot%20(431).webp)
+    Wait for the verification and the domain registration to be finish minimum in 30 minutes, check email for further verification ![Wait verification ss](./assets/img/readme-ss-mod2/Screenshot%20(433).webp)
    4.2 Connect the new domain to Netlify, click Domain management write the new domain and click "Verify" ![Manage domain1 netlify ss](./assets/img/readme-ss-mod2/Screenshot%20(435).png)
    click "Add domain" ![Manage domain2 netlify ss](./assets/img/readme-ss-mod2/Screenshot%20(436).png) and the display will be like this ![Manage domain3 netlify ss](./assets/img/readme-ss-mod2/Screenshot%20(438).png)
    and select "Primary domain" and click "Options" select "Set up Netlify DNS"
