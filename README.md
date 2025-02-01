@@ -32,7 +32,7 @@ It features a user-friendly interface and seamless checkout process.
    Wait until the process complete![Process1 depo ss](./assets/img/readme-ss-mod2/Screenshot%20(422).webp)![Process2 depo ss](./assets/img/readme-ss-mod2/Screenshot%20(423).webp)
    Its the display after its deployed ![Deploy success1 ss](./assets/img/readme-ss-mod2/Screenshot%20(469).png) Once the deployment is successful, Netlify will give URL to access your site
    ![Deploy success2 ss](./assets/img/readme-ss-mod2/Screenshot%20(426).webp)
-   Check for auto deployment in Netlify, click on "Deploys" ![Check deploy1 ss](./assets/img/readme-ss-mod2/Screenshot%20(434).png)![Check deploy2 ss](./assets/img/readme-ss-mod2/Screenshot%20(424).webp)![Check deploy3 ss](./assets/img/readme-ss-mod2/Screenshot%20(425).webp)![Check deploy2 ss](./assets/img/readme-ss-mod2/Screenshot%20(506).png)
+   Check for auto deployment in Netlify, click on "Deploys" ![Check deploy1 ss](./assets/img/readme-ss-mod2/Screenshot%20(434).png)![Check deploy2 ss](./assets/img/readme-ss-mod2/Screenshot%20(424).webp)![Check deploy3 ss](./assets/img/readme-ss-mod2/Screenshot%20(425).webp)![Check deploy4 ss](./assets/img/readme-ss-mod2/Screenshot%20(506).png)
 
 
 4. [Steps of connecting the new custom domain(teresestudios.web.id) and DNS]
